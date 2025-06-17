@@ -192,7 +192,7 @@ standard blockquote. Five types of alerts are available:
 > Urgent info that needs immediate user attention to avoid problems.
 
 > [!CAUTION]
-> 
+>
 > Advises about risks or negative outcomes of certain actions.
 
 ## Empty alerts
@@ -437,3 +437,18 @@ To split <span>$</span>100 in half, we calculate $100/2$
 ## Autolinked references and URLs
 
 Visit https://github.com
+
+# Not Supported
+
+## Abbreviation
+
+*[HTML]: Hyper Text Markup Language
+The HTML specification is maintained by the W3C.
+
+## Admonition syntax
+
+Supported on Docusaurus, but not on GitHub.
+
+:::warning
+Hello World
+:::
