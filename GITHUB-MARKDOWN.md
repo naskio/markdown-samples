@@ -254,9 +254,10 @@ Hi, I'm Mona. You might recognize me as GitHub's mascot.
 
 ## Adding a video
 
-<div class="responsive-video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l76yh1VjhaY" title="Armada demo video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+We can't use an `<iframe>` tag to embed a video, but we can link to a video on YouTube or another site and display a
+thumbnail image that links to the video.
+
+[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
 
 ## Adding a quote
 
@@ -452,3 +453,16 @@ Supported on Docusaurus, but not on GitHub.
 :::warning
 Hello World
 :::
+
+## iframe tag
+
+The `<iframe>` tag is not supported in GitHub Markdown. You can link to an external site instead.
+
+<iframe width="100%" style={{"aspect-ratio": "16 / 9"}}
+src="https://www.youtube.com/embed/T-D1KVIuvjA?si=VdBgta3ALERtul4u" title="YouTube
+video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Or as generated from YouTube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T-D1KVIuvjA?si=VdBgta3ALERtul4u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
